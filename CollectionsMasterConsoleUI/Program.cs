@@ -132,6 +132,7 @@ namespace CollectionsMasterConsoleUI
                     numbers[i] = 0;
                 }
             }
+              NumberPrinter(numbers);
         }
 
         private static void OddKiller(List<int> numberList)
@@ -143,6 +144,7 @@ namespace CollectionsMasterConsoleUI
                     numberList.Remove(numberList[i]);
                 }
             }
+            NumberPrinter(numberList);
         }
 
         private static void NumberChecker(List<int> numberList, int searchNumber)
